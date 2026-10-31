@@ -1,0 +1,17 @@
+name: jm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pillow=10.4
+  - scikit-image=0.24
+  - pytest=8.3
+  - pip
+  - pip:
+      - -e .

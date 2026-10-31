@@ -1,0 +1,24 @@
+{
+  "seed": 20261031,
+  "updates": 30000,
+  "time_seconds": 5400,
+  "learning_rate": 0.001,
+  "lambda_geometry": 0.1,
+  "line_search_steps": 12,
+  "objective_tolerance": 0.0001,
+  "objective_refinements": 3,
+  "interval_cells": 4096,
+  "voxel_size": 0.02,
+  "truncation_voxels": 4,
+  "coverage_threshold": 0.01,
+  "surface_threshold": 0.1,
+  "integration": {
+    "color_tol": 0.0001,
+    "response_tol": 0.001,
+    "quadrature_tol": 1e-08,
+    "order": 8,
+    "max_order": 64,
+    "max_depth": 4,
+    "direct_layers": 24
+  }
+}
